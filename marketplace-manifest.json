@@ -1,0 +1,29 @@
+{
+	"$schema": "https://inlang.com/schema/marketplace-manifest",
+	"id": "plugin.melvspace.flutterSlangMatcher",
+	"displayName": {
+		"en": "Matcher and message extractor for flutter slang i18n files"
+	},
+	"description": {
+		"en": "This plugin enables using flutter slang JSON files for messages. It is library specific and can be used only with flutter slang."
+	},
+	"pages": {
+		"/": "./README.md",
+		"/changelog": "./CHANGELOG.md"
+	},
+	"keywords": [
+		"json",
+		"flutter",
+		"slang",
+		"generic",
+		"load",
+		"save",
+		"import",
+		"export",
+		"messages",
+		"plugin"
+	],
+	"publisherName": "melvspace",
+	"license": "MIT",
+	"module": "https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js"
+}
